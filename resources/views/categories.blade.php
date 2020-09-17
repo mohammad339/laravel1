@@ -32,7 +32,7 @@
             <td><a href="{{route('show',$category->id)}}">{{$category->title}}</a></td>
             <td>{{$category->description}}</td>
             <td>{{$category->active}}</td>
-            <td><a href="{{route('edit',$category->id)}}">ویرایش</a></td>
+            <td><a href="{{route('edit',$category->id)}}">به روز رسانی دسته بندی</a></td>
             <td><a href="{{route('destroy',$category->id)}}" onclick="return confirm('آیاآیتم مورد نظرحذف شود')">حذف</a></td>
           </tr>
         @endforeach
